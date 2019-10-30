@@ -2,10 +2,9 @@ image:
   file: .gitpod.Dockerfile
 tasks:
 - init: >
-    flutter channel master &&
     flutter upgrade &&
-    flutter config --enable-web &&
-    flutter pub get
+    flutter pub get &&
+    flutter build web
   command: >
     flutter run --web-port=8080 --web-hostname=0.0.0.0
 ports:
