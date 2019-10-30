@@ -6,6 +6,8 @@ Demo app for the material design widgets and other features provided by Flutter.
 
 Clicking the button above will open this repository in Gitpod, a fully-featured dev environment running in your browser.
 
+<img width="1585" alt="Screenshot 2019-10-30 at 16 57 54" src="https://user-images.githubusercontent.com/372735/67875300-71596300-fb36-11e9-85da-dbbd5e322bf6.png">
+
 ### Building and installing the stocks demo app
 
 * `cd $FLUTTER_ROOT/examples/stocks`
