@@ -2,15 +2,9 @@
 
 Demo app for the material design widgets and other features provided by Flutter.
 
-## Building
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/from-referrer/)
 
-You can follow these instructions to build the stocks app
-and install it onto your device.
-
-### Prerequisites
-
-If you are new to Flutter, please first follow
-the [Flutter Setup](https://flutter.dev/setup/) guide.
+Clicking the button above will open this repository in Gitpod, a fully-featured dev environment running in your browser.
 
 ### Building and installing the stocks demo app
 
