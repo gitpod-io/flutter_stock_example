@@ -1,0 +1,17 @@
+image:
+  file: .gitpod.Dockerfile
+tasks:
+- init: >
+    flutter channel master &&
+    flutter upgrade &&
+    flutter config --enable-web &&
+    flutter pub get
+  command: >
+    flutter run --web-port=8080 --web-hostname=0.0.0.0
+ports:
+- port: 8080
+  onOpen: open-preview
+vscode:
+  extensions:
+    - Dart-Code.dart-code@3.5.1:W6zqgIED1gxtkBH/pbfGXA==
+    - Dart-Code.flutter@3.5.1:0FyuzXye7dV19PNst3+Llg==
