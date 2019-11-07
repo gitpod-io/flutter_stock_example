@@ -3,10 +3,9 @@ image:
 tasks:
 - init: >
     flutter upgrade &&
-    flutter pub get &&
-    flutter build web
+    flutter run -d web-server --no-resident
   command: >
-    flutter run --web-port=8080 --web-hostname=0.0.0.0
+    flutter run -d web-server --web-port=8080 --web-hostname=0.0.0.0
 ports:
 - port: 8080
   onOpen: open-preview
