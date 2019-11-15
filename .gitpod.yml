@@ -1,9 +1,12 @@
 image:
   file: .gitpod.Dockerfile
 tasks:
-- init: >
-    flutter upgrade &&
-    flutter run -d web-server --no-resident
+- before: >
+    source ~/.bashrc
+  init: >
+    flutter upgrade && 
+    flutter update-packages --force-upgrade &&
+    flutter run -d web-server --no-resident # prebuilds the app
   command: >
     flutter run -d web-server --web-port=8080 --web-hostname=0.0.0.0
 ports:
