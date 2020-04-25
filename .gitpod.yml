@@ -1,9 +1,7 @@
 image:
   file: .gitpod.Dockerfile
 tasks:
-- before: >
-    source ~/.bashrc
-  init: >
+- init: >
     flutter upgrade && 
     flutter update-packages --force-upgrade &&
     flutter run -d web-server --no-resident # prebuilds the app
@@ -14,5 +12,5 @@ ports:
   onOpen: open-preview
 vscode:
   extensions:
-    - Dart-Code.dart-code@3.5.1:W6zqgIED1gxtkBH/pbfGXA==
-    - Dart-Code.flutter@3.5.1:0FyuzXye7dV19PNst3+Llg==
+    - Dart-Code.dart-code@3.10.0-beta.2:tUOuxmX97tnVRlRhi8Z1og==
+    - Dart-Code.flutter@3.6.0:bAElIiRvpBSK2AT2+PDj0w==
